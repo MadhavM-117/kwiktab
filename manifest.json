@@ -1,0 +1,7 @@
+{
+  "manifest_version": 2,
+  "name": "Kwiktab",
+  "version": "0.1",
+
+  "description": "A simple extension to switch between your tabs, kwikly!"
+}
