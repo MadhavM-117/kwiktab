@@ -1,7 +1,18 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Kwiktab",
   "version": "0.1",
-
-  "description": "A simple extension to switch between your tabs, kwikly!"
+  "description": "A simple extension to switch between your tabs, kwikly!",
+  "permissions": [
+    "<all_urls>", 
+    "tabs"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background-script.js"],
+    "persistent": false, 
+    "type": "module"
+  }
 }
