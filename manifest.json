@@ -9,10 +9,5 @@
   ],
   "action": {
     "default_popup": "popup.html"
-  },
-  "background": {
-    "scripts": ["background-script.js"],
-    "persistent": false, 
-    "type": "module"
   }
 }
