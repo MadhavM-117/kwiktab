@@ -1,0 +1,10 @@
+{
+  "name": "kwiktab",
+  "version": "0.1.0",
+  "description": "A browser extension to kwikly switch between tabs. ",
+  "repository": "git@github.com:MadhavM-117/kwiktab.git",
+  "author": "Madhav M. <madhavmanoj117@gmail.com>",
+  "scripts": {
+    "dev": "TMPDIR=~/tmp web-ext run --devtools"
+  }
+}
